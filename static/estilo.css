@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(13, 161, 154, 0.931);
+    align-items: center;
+}
+h1{
+   
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.sec1{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(244, 246, 248, 0.849);
+    border-radius: 20px;
+    height: 60%;
+    width: 80%;
+
+}
+
+.sec2{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.personagens{
+    background-color: rgba(13, 161, 154, 0.931);
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex: 1 1 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+.nome_personagens{
+    text-align: center;
+    font-weight: bolder;
+    justify-items: center;
+    cursor: pointer;
+}
+
+.armas{
+    
+    width: 100%;
+    background-color: rgba(13, 161, 154, 0.931);
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+
+.nome_arma{
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+img{
+    cursor: pointer;
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+
+button{
+    font-weight: bold;
+    text-align: center;
+    color: oldlace;
+    margin: 20px;
+    align-items: flex-end;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    transition: all 400ms ease;
+    cursor: pointer;
+    background-color: midnightblue;
+    max-width: 150px;
+    border-top: ;
+}
+
+.efeito:hover{
+    background-color: rgba(13, 161, 154, 0.931);
+    border: solid;
+    transition: all 1s ease-in;
+    width: 100%;
+
+}
+.armas :hover{
+    border-bottom: solid;
+    border-color: rgba(245, 245, 245, 0.644);
+    transition: all 500ms ease-in;
+    zoom: 110%;   
+    
+}
+
+.personagens :hover{
+    border-bottom: solid;
+    border-color: rgba(245, 245, 245, 0.644);
+    transition: all 100ms ease-in;
+    zoom: 110%;
+    
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+}
