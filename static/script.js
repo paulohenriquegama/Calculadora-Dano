@@ -115,7 +115,7 @@ function calcularDano(){
             nivel = 25
         }else{
             if(nome_arma === "staff"){
-                nivel = 35
+                nivel = 45
             }else{
                 
             }
