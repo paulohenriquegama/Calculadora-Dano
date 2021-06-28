@@ -26,7 +26,7 @@ h2{
     align-items: center;
     background-color: rgba(244, 246, 248, 0.849);
     border-radius: 20px;
-    height: 60%;
+    height: 70%;
     width: 80%;
 
 }
@@ -49,11 +49,12 @@ h2{
     width: 100%;
     border-radius: 10px;
     display: flex;
-    flex: 1 1 200px;
+    flex: 1 1 250px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-end;
+    padding-top: 20px;
 
 }
 .nome_personagens{
@@ -61,6 +62,9 @@ h2{
     font-weight: bolder;
     justify-items: center;
     cursor: pointer;
+    
+    
+    
 }
 
 .armas{
@@ -73,7 +77,9 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: flex-end;
     padding-top: 20px;
+    position: relative;
 
 }
 
@@ -81,13 +87,14 @@ h2{
     text-align: center;
     font-weight: bolder;
     cursor: pointer;
+    
 }
 
 
 img{
     cursor: pointer;
-    max-width: 200px;
-    max-height: 200px;
+    width: 180px;
+    height: 200px;
     
 }
 
@@ -104,7 +111,7 @@ button{
     cursor: pointer;
     background-color: midnightblue;
     max-width: 150px;
-    border-top: ;
+    
 }
 
 .efeito:hover{
@@ -117,8 +124,9 @@ button{
 .armas :hover{
     border-bottom: solid;
     border-color: rgba(245, 245, 245, 0.644);
-    transition: all 500ms ease-in;
-    zoom: 110%;   
+    transition: all 100ms ease-in;
+    zoom: 110%;
+    
     
 }
 
@@ -134,3 +142,4 @@ footer{
     text-align: center;
     font-size: 20px;
 }
+

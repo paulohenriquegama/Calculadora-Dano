@@ -7,7 +7,7 @@ def home():
     name = "Bases Sonic"
     hp = 2000
     status_img = True
-    img_orc = "https://thumbs.gfycat.com/AmbitiousSarcasticBandicoot-size_restricted.gif"
+    img_orc = "https://bit.ly/3gZ9w5a"
 
     img_goblin = "https://i.pinimg.com/originals/f6/e7/71/f6e771decdab6712905444a5341afcab.gif"
 

@@ -64,7 +64,7 @@ function selecionarArma(evento){
     
     if(!armaSelecionada.classList.contains("selecionadoArma")){
         armaSelecionada.classList.add("selecionadoArma");
-        armaSelecionada.style.border = "2px solid black"
+        armaSelecionada.style.borderTop = "5px solid black";
         
         list_arma_selecionada.push(nomeArma)
         arma_selecionada = list_arma_selecionada[0]
